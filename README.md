@@ -5,18 +5,13 @@ A beautiful, trauma-informed portfolio showcasing 13+ years of experience in beh
 ## 🌿 About
 Personal website for Katelyn Gubbe, featuring work in behavioral health outreach, community wellness, and professional development facilitation.
 
-## 🚀 To Deploy on GitHub Pages
+## 🚀 GitHub Pages Deployment
 
-1. Create a new repository on GitHub named: `flowerkindness.github.io`
-2. Clone it to your computer
-3. Copy `index.html` and `README.md` into the repository
-4. Commit and push:
-   ```
-   git add .
-   git commit -m "Initial portfolio"
-   git push
-   ```
-5. Your site will be live at: `https://flowerkindness.github.io`
+This repository is configured as a GitHub Pages user site. When the `main` branch is pushed, the site is served from:
+
+- `https://flowerkindness.github.io`
+
+If you want to update the content, edit `index.html`, commit, and push to `main`.
 
 ## 📱 Features
 - Beautiful gradient background
