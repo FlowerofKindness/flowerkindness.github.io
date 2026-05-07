@@ -6,6 +6,67 @@
   <title>Katelyn Gubbe – Chain-Breaker in Bloom</title>
 
   <style>
+    .choose-your-path {
+  padding: 3rem 1.5rem;
+  max-width: 960px;
+  margin: 0 auto 4rem auto;
+  text-align: center;
+}
+
+.choose-your-path h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.choose-your-path .path-intro {
+  max-width: 640px;
+  margin: 0 auto 2rem auto;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.path-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.path-card {
+  display: block;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(0, 0, 0, 0.25);
+  text-align: left;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.path-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.path-card p {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.path-cta {
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.path-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
   body {
   font-family: 'Lora', serif;
   background: #F3EFE7; /* worn paper cream */
